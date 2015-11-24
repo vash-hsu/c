@@ -48,7 +48,7 @@ const char cszCommand[] = "start";
 #endif // __APPLE__
 
 #ifdef __linux__
-const char cszCommand[] = "start";
+const char cszCommand[] = "xdg-open";
 #endif // __linux__
 
 int write_eicar()

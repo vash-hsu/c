@@ -9,3 +9,10 @@
 + use gcc -DBUILDNUM= to generate file sample with loop
  + cd C:\Program Files (x86)\CodeBlocks\MinGW\bin
  + for /l %x in (1001, 1, 1100) do gcc -DBUILDNUM=%x D:\temp\write_file_open_browser.cc -DBUILDNUM=%x -o D:\temp\%x.exe
+
+
+#### Linux ####
++ use gcc -DBUILDNUM= to generate file sample with loop
+ + for num in {1001..1100}; do gcc -DBUILDNUM=$num write_file_open_browser.cc -o $num.o; done
+
+
