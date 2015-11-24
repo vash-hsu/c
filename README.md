@@ -1,6 +1,6 @@
 ## kata for C programming and testing ##
 -----
-### How to Create Bulk Executible File Samples with unique SHA1 ###
+### How to Create Bulk Executable File Samples with unique SHA1 ###
 - **file_sample/write_file_open_browser.cc**
 - which writes eicar.com at working folder and open google page by default browser
 
