@@ -43,7 +43,7 @@ const char cszCommand[] = "start";
 #ifdef __APPLE__
 #include "TargetConditionals.h"
 #if TARGET_OS_MAC
-const char cszCommand[] = "start";
+const char cszCommand[] = "open";
 #endif // TARGET_OS_MAC
 #endif // __APPLE__
 

@@ -16,3 +16,7 @@
  + for num in {1001..1100}; do gcc -DBUILDNUM=$num write_file_open_browser.cc -o $num.o; done
 
 
+#### Mac ####
++ use gcc -DBUILDNUM= to generate file sample with loop
+ + for num in {1001..1100}; do gcc -DBUILDNUM=$num write_file_open_browser.cc -o $num.m; done
+
